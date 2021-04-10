@@ -1,0 +1,40 @@
+#from email import encoders 
+#from email.mime.text import MIMEText
+#from email.mime.base import MIMEBase
+#from email.mime.multipart import MIMEMultipart
+# imported libraries
+#server = smtplib.SMTP('stmp.mail-tester.com', 25) # port 25 -- SMPT port 
+
+#server.ehlo() # ehlo start process
+
+# with open('password.txt', 'r') as f: 
+  #  password = f.read()
+
+# server.login('compute1383@gmail.com', 'password')
+
+#msg = MIMEMultipart()
+#msg['From'] = 'Haji'  
+#msg['To'] = 'test-m405tlqgj@srv1.mail-tester.com' # spam mail tester sample
+#msg['Subject'] = 'mailclient'
+
+#with open('message.text', 'r') as f: 
+#    message = f.read()
+    
+#msg.attatch = (MIMEText(message, 'PLAINTEXT'))
+#filename = '804420953374982174.gif'
+#attachment = open(filename, 'rb')
+
+# begin payload
+#pl = MIMEBase('application', 'octet-stream')
+#pl.set_payload(attachment.read()) 
+
+#encoders.encode_base64(pl)
+#pl.add_header('Content-Disposition', f'attachment; filename={filename}')
+
+#text = msg.as_string()
+#server.sendmail('compute1383@gmail.com', 'test-m405tlqgj@srv1.mail-tester.com', text) 
+
+
+
+
+SCRAPPED.
