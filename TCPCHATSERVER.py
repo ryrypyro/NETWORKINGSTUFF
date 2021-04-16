@@ -60,3 +60,5 @@ receive()
 #  File "C:\Users\ryana\OneDrive\Desktop\NTWRKING\TCPCHATSERVER.py", line 9, in <module>
 #    server.bind((hostName, port)) # connect the host to port 55555
 # SError: [WinError 10049] The requested address is not valid in its context"
+
+# if someone can help id apprecaite it @ ryanazrael#8019
